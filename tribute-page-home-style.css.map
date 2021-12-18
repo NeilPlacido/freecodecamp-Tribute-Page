@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,EAAE;EACV,OAAO,EAAE,EAAE;CACd",
+    "sources": [
+        "tribute-page-home-style.scss"
+    ],
+    "names": [],
+    "file": "tribute-page-home-style.css"
+}
