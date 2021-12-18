@@ -1,3 +1,7 @@
+$main-Background: black;
+$img-div-Background: #1d1c1c36;
+$tribute-info-Background: #1d1c1c36;
+$tribute-info-Height: 1600px;
 
 
 
@@ -5,5 +9,96 @@
 *{
     margin: 0%;
     padding: 0%;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+#main{
+    background: $main-Background;
+}
+h1{
+    font-size: 40px;
+}
+#img-div{
+    background: $img-div-Background;
+    padding: 10px;
+    margin: 0;
+}
+#image{
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+    padding-top: 30px;
+    display: block;
+    border-radius: 2%;
+}
+#img-caption{
+    color: #ffffff;
+    padding-top:  10px;
+    font-size: 15px;
+}
+h2, h3{
+    margin: 10px;
+    font-size: 20px;
+}
+#tribute-info{
+    background: $tribute-info-Background;
+    height: $tribute-info-Height;
+}
+ul{
+    max-width: 402px;
+    margin: 0 auto 50px auto;
+    padding-top: 30px;
+    text-align: left;
+    line-height: 1.6;
+}
+li{
+    font-size: 18px;
+    margin-top: 20px;
+}
+strong{
+    color: #444446;
+}
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+a{
+    color: rgb(136, 37, 218);
+}
+a:hover{
+    color: rgb(156, 98, 211);
+}
+a:active{
+    color: gold;
 }
 
+@media (max-width: 550px){
+    h1{
+        font-size: 36px;
+    }
+     h2, h3{
+         font-size: 16px;
+     }
+     figcaption{
+        font-size: 15px;
+     }
+     li{
+         font-size: 15px;
+     }
+     blockquote{
+         margin: 20px
+     }
+     a{
+         color: rgb(136, 37, 218);
+     }
+     #tribute-info{
+        height: 1250px;
+    }
+}
